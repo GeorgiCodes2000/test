@@ -1,0 +1,16 @@
+.or {
+  position: relative;
+}
+
+.or:before {
+  content: '';
+  height: 1px;
+  background: -webkit-gradient(linear, left top, right top, from(silver), color-stop(silver), color-stop(rgba(255, 255, 255, 0)), color-stop(rgba(255, 255, 255, 0)), color-stop(silver), to(silver));
+  background: linear-gradient(to right, silver, silver, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), silver, silver);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  z-index: 0;
+}
+/*# sourceMappingURL=register.css.map */
